@@ -16,6 +16,7 @@ ios端采用oc语言 android端采用kotlin语言
 
 - 搜索框+列表展示
 
+- 展示原生ios界面
 ## Getting Started
 
 This project is a starting point for a Flutter application.
