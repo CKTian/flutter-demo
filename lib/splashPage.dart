@@ -62,21 +62,42 @@ class SplashPageState  extends State<SplashPage>{
   @override
   Widget build(BuildContext context) {
     return new Material(
-      color:Color.fromRGBO(56,157,153, 1.0),
+      color: Colors.white,
       child: Container(
         alignment:Alignment(0, -0.3),
-        // color:Color.fromRGBO(59,119,227, 1.0),
-        // width:100,
-        // height:100,
-        child: new Text(
-          'welcome 海鼎',
-          style: new TextStyle(
-            color: Colors.white,
-            fontSize: 50.0,
-            fontWeight: FontWeight.bold
-          ),
-
-        ),
+        child: new Column(
+          children: <Widget>[
+            new Padding(
+              padding: new EdgeInsets.only(top: 100.0),
+              child: new Image.asset(
+                'images/ic_logo.png',
+                scale: 1,
+              )
+            ),
+            new Padding(
+              padding: new EdgeInsets.only(top:180.5),
+              child: new Text(
+                '物流供应链手机协作端',
+                style: new TextStyle(
+                  color: Color.fromRGBO(161, 161, 161, 1),
+                  fontSize: 12.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
+            ),
+            new Padding(
+              padding: new EdgeInsets.only(top:7.0),
+              child: new Text(
+                'xx公司',
+                style: new TextStyle(
+                  color: Color.fromRGBO(161, 161, 161, 1),
+                  fontSize: 10.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        )
       ),
     );
   }

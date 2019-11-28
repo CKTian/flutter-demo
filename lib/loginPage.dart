@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:iwms_demo/model/response.dart';
-
+import 'package:flutter_i18n/flutter_i18n.dart';
+import 'package:iwms_demo/locales/localizations.dart';
+import 'dart:ui';
 import 'main.dart';
-import 'service/login.dart';
 
 class LoginPage extends StatefulWidget{
   final String title;
+  
 
   const LoginPage({Key key, this.title}) : super(key: key);
 
@@ -14,11 +15,34 @@ class LoginPage extends StatefulWidget{
   
 }
   
-class _LoginPageState extends State<LoginPage>{
+class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixin{
   var _isObscure = true;
   GlobalKey _formKey = new GlobalKey<FormState>();
   TextEditingController _uNameController = TextEditingController();
   TextEditingController _pwdController = TextEditingController();
+
+  TabController _tabController;
+  
+  // //定义tab被选中和没被选中的颜色样式
+  // Color _colorTabMatching({item}) {
+  //   return _currenttab == item['value'] ? Color.fromRGBO(69,118,255, 1.0) : Colors.grey;
+  // }
+
+  @override
+  void initState() {
+    super.initState();
+    _tabController = TabController(vsync: this,length: 2,);
+  } 
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  void sendMessage(){
+    print("点我干什么");
+  }
 
   /**
    * 调用登陆方法--及成功后跳转
@@ -59,25 +83,21 @@ class _LoginPageState extends State<LoginPage>{
  /**
   * 绘制用户名输入框
   */
-  buildAccountTextField(BuildContext context) {
+  buildAccountTextField(BuildContext context,String type) {
     return TextFormField(
       controller: _uNameController,
       autofocus:true,//自动获取焦点
       obscureText:false,
       validator: (String value) {
         if (value.isEmpty) {
-          return '请输入账户';
+          // return type=='account'?DemoLocalizations.of(context).text('inputAccount'):DemoLocalizations.of(context).text('inputPhone');
+          return type=='account'?FlutterI18n.translate(context, "inputAccount"):FlutterI18n.translate(context, "inputPhone");
         }
       },
       cursorColor:Color.fromRGBO(56,157,153, 1.0),
       decoration: InputDecoration(
-        labelText: '账户',
-        labelStyle:(
-          TextStyle(
-            color:Colors.grey,
-          )
-        ),
-        hintText:'请输入用户名',
+        // hintText:type=='account'?DemoLocalizations.of(context).text('inputAccount'):DemoLocalizations.of(context).text('inputPhone'),
+        hintText:type=='account'?FlutterI18n.translate(context, "inputAccount"):FlutterI18n.translate(context, "inputPhone"),
         hintStyle:(
           TextStyle(
             color:Colors.grey,
@@ -99,19 +119,15 @@ class _LoginPageState extends State<LoginPage>{
       obscureText: _isObscure,
       validator: (String value) {
         if (value.isEmpty) {
-          return '请输入密码';
+          // return DemoLocalizations.of(context).text('inputAccountPwd');
+          return FlutterI18n.translate(context, "inputAccountPwd");
         }
       },
       cursorColor:Color.fromRGBO(56,157,153, 1.0),
 
       decoration: InputDecoration(
-          labelText: '密码',
-          labelStyle:(
-            TextStyle(
-              color:Colors.grey,
-            )
-          ),
-          hintText:'请输入密码',
+          // hintText:DemoLocalizations.of(context).text('inputAccountPwd'),
+          hintText:FlutterI18n.translate(context, "inputAccountPwd"),
           hintStyle:(
             TextStyle(
               color:Colors.grey,
@@ -135,22 +151,65 @@ class _LoginPageState extends State<LoginPage>{
       ),
     );
   }
+
+  /**
+   * 绘制动态验证码
+   */
+  buildMessagePwdTextField(BuildContext context){
+    return TextFormField(
+      controller: _pwdController,
+      // onSaved: (String value) => _password = value,
+      obscureText: _isObscure,
+      validator: (String value) {
+        if (value.isEmpty) {
+          // return DemoLocalizations.of(context).text('inputMessagePwd');
+          return FlutterI18n.translate(context, "inputMessagePwd");
+        }
+      },
+      cursorColor:Color.fromRGBO(56,157,153, 1.0),
+
+      decoration: InputDecoration(
+          // hintText:DemoLocalizations.of(context).text('inputMessagePwd'),
+          hintText:FlutterI18n.translate(context, "inputMessagePwd"),
+          hintStyle:(
+            TextStyle(
+              color:Colors.grey,
+            )
+          ),
+          fillColor:Colors.grey,
+          // suffixText:'发送验证码'
+          suffix:new Container(
+            child: GestureDetector(
+              child: Text(
+                // DemoLocalizations.of(context).text('sendMessage'),
+                FlutterI18n.translate(context, "sendMessage"),
+                style: TextStyle(color: Colors.grey, fontSize: 18.0),
+              ),
+              onTap: this.sendMessage
+                // TODO: 发送验证码 
+            ),
+          )
+      ),
+    );
+  }
   /**
    * 绘制提交按钮
    */
   buildLoginButton(BuildContext context){
     return Align(
+      alignment: Alignment.topCenter,
       child: SizedBox(
-        height: 45.0,
-        width: 270.0,
+        height: 48.0,
+        width: 403.0,
         child: FlatButton(
           child: Text(
-            '登录',
+            // DemoLocalizations.of(context).text('loginButtonText'),
+            FlutterI18n.translate(context, "loginButtonText"),
             style: Theme.of(context).primaryTextTheme.headline,
           ),
-          color:Color.fromRGBO(56,157,153, 1.0),
-          // shape: BeveledRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(200))),
-          shape: StadiumBorder(),
+          color:Color.fromRGBO(69, 118, 255, 1.0),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8))),
+          // shape: StadiumBorder(),
           
           onPressed: () {
             // TODO: 输入内容校验
@@ -172,32 +231,157 @@ class _LoginPageState extends State<LoginPage>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:Color.fromRGBO(69, 118, 255, 1.0),
       body: Form(
         key: _formKey,
-        child:ListView(
+        child:Column(
           children: <Widget>[
-            new Padding(
-              padding: new EdgeInsets.all(30.0),
-              child: new Image.asset(
-                'images/ic_logo.png',
-                scale: 1.5,
+            new Center(
+              child:new Container(
+                width: 80.0,
+                height: 75.0,
+                margin: new EdgeInsets.only(top:25.0),
+                decoration: new BoxDecoration(
+                  image:new DecorationImage(
+                    image: AssetImage('images/ic_iconlogo.png')
+                  )
+                ),
               )
             ),
             new Padding(
-              padding: new EdgeInsets.only(left:30.0,right: 30.0),
-              child:buildAccountTextField(context),
+              padding: new EdgeInsets.only(top:0.0),
+              child: new Text(
+                'HDiWMS',
+                textAlign: TextAlign.center,
+                style: new TextStyle(
+                  color: Color.fromRGBO(255, 255, 255, 1),
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
             new Padding(
-              padding: new EdgeInsets.only(left:30.0,right: 30.0),
-              child:buildPwdTextField(context),
+              padding: new EdgeInsets.only(top:7.0),
+              child: new Text(
+                // DemoLocalizations.of(context).text('iwmsAppName'),
+                FlutterI18n.translate(context, "iwmsAppName"),
+                textAlign: TextAlign.center,
+                style: new TextStyle(
+                  color: Color.fromRGBO(255, 255, 255, 1),
+                  fontSize: 12.0,
+                  fontWeight:FontWeight.w100,
+                  // fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
-            new Padding(
-              padding: new EdgeInsets.only(left:30.0,right: 30.0,top:100.0),
-              child:buildLoginButton(context),
-            ),
+            new Expanded(
+              child: new Container(
+                margin: const EdgeInsets.only(
+                  top: 25.0
+                ),
+                width: window.physicalSize.width,
+                height: window.physicalSize.height*0.2549,
+                decoration: new BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    topRight:Radius.circular(25.0),
+                    topLeft:Radius.circular(25.0),
+                  ),
+                ),
+                child: new Container(
+                  decoration: new BoxDecoration(
+                // border: new Border(
+                //   bottom: BorderSide(
+                //     // color: Color.fromRGBO(161, 161, 161, 0.32),
+                //     color: Colors.red,
+                //     width: 0.5
+                //   )
+                      // ),
+                    ),
+                  child: new ClipRRect(
+                      borderRadius: BorderRadius.only(
+                        topLeft:Radius.circular(25),
+                        topRight:Radius.circular(25),
+                      ),
+                      child:new Scaffold(
+                        appBar: PreferredSize(
+                          child: new AppBar(
+                            backgroundColor: Colors.white,
+                            elevation: 0.5,
+                            bottom: new TabBar(
+                              labelColor:Color.fromRGBO(69, 118, 255, 1),
+                              indicatorColor:Color.fromRGBO(69, 118, 255, 1),
+                              // indicator: new BoxDecoration(
+                              //   border: new Border(
+                              //     bottom: BorderSide(
+                              //       color: Color.fromRGBO(161, 161, 161, 0.32),
+                              //       width: 0.5
+                              //     )
+                              //   ),
+                          //   ),
+                              controller: _tabController,
+                              tabs: <Widget>[
+                                // new Tab(text: DemoLocalizations.of(context).text('accountLogin')),
+                                new Tab(text: FlutterI18n.translate(context, "accountLogin")),
+                                // new Tab(text: DemoLocalizations.of(context).text('phoneLogin')),
+                                new Tab(text: FlutterI18n.translate(context, "phoneLogin")),
+                              ]
+                            ),
+                          ),
+                          preferredSize: Size.fromHeight(48.0),
+                        ),
+                        body: TabBarView(
+                          controller: _tabController,
+                          children: <Widget>[
+                            Wrap(
+                              children: <Widget>[
+                                new Container(
+                                  color:Colors.white,
+                                  padding: new EdgeInsets.all(36.0),
+                                  child:buildAccountTextField(context,'account'),
+                                ),
+                                new Container(
+                                  color:Colors.white,
+                                  padding: new EdgeInsets.fromLTRB(36.0,16.0,36.0,0.0),
+                                  child:buildPwdTextField(context),
+                                ),
+                                new Container(
+                                  height: 300.0,
+                                  padding: new EdgeInsets.fromLTRB(36.0,60.0,30.0,30.0),
+                                  child:buildLoginButton(context),
+                                ),
+                              ],
+                            ),
+                            Wrap(
+                              children: <Widget>[
+                                new Container(
+                                  color:Colors.white,
+                                  padding: new EdgeInsets.all(36.0),
+                                  child:buildAccountTextField(context,'phone'),
+                                ),
+                                new Container(
+                                  color:Colors.white,
+                                  padding: new EdgeInsets.fromLTRB(36.0,16.0,36.0,0.0),
+                                  child:buildMessagePwdTextField(context),
+                                ),
+                                new Container(
+                                  color:Colors.white,
+                                  height: 300.0,
+                                  padding: new EdgeInsets.fromLTRB(36.0,60.0,30.0,30.0),
+                                  child:buildLoginButton(context),
+                                ),
+                              ],
+                            )
+                          ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            )
+            
           ],
         )
-
       ),
     );
     // return null;

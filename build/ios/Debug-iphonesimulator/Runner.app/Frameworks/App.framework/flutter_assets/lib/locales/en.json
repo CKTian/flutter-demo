@@ -1,0 +1,26 @@
+{
+    "iwmsAppName": "iwmsApp",
+
+    "homePage": "Home",
+    "functionPage": "Funtion",
+    "noticePage": "Notice",
+    "minePage": "Mine",
+
+    "loginButtonText": "Login",
+    "changeLanguage": "Change Language",
+    "Chinese": "Chinese",
+    "English": "English",
+    "changeOrg": "Change Org",
+    "updatePassword": "Update Password",
+    "about": "About",
+    "logout": "Logout",
+    "baiduGPS": "Baidu GPS",
+
+    "inputAccount":"Please input your account",
+    "inputPhone":"Please input your phone",
+    "inputAccountPwd":"Please input your account password",
+    "inputMessagePwd":"Please input your message password",
+    "sendMessage":"Send Meaasge",
+    "accountLogin":"Account Login",
+    "phoneLogin":"Phone Login"
+}

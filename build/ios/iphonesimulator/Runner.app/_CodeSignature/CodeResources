@@ -82,15 +82,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		58j7fausuxthlK5grrQtUQhbyUU=
+		ogp+bfZMYNVen5r+laPHAPYBklk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
 		<data>
-		+RMDMqvOFLwKK+YIbCpym5j6cv0=
+		xku6u2+fl6ZiX0MyCt4weZmUVwk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<data>
-		atlNkzpgzLN4uZv1yitVOEZ03Go=
+		CPUBoNfqpwESCPbLoP/RKMdTtHk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -98,19 +98,19 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib</key>
 		<data>
-		0ZU/mwGgycgw6KTQ302gM8TGnLw=
+		HxiSYhBfyuIQp8FePCRhZrQn1BE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<data>
-		VXJLybodIfSSAd1xGr+wu44kNj0=
+		w2Mk5diSAxonhsW9V8DTGWkob8M=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib</key>
 		<data>
-		Z4ITEoVxw0sVsy4lHecrj9/t3Wk=
+		LCs4BEM9fscBPMlj+sg2P17TMnc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<data>
-		094sh/aYvIe/rqO50z9iySwipMQ=
+		0br4x6BwMVvUMQzIXHvKQ57N6+8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib</key>
 		<data>
-		e1STMAPM0Fcest2Lq9SM0HPJeYA=
+		0syyxXks67AANVOyAX70/afnAfI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib</key>
 		<data>
-		p/88p8Kff6JzZepelNVPRow2skw=
+		wmu2kcXjORkS2A8X9YS3ySvdQQI=
 		</data>
 		<key>Debug.xcconfig</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		8e1tT5ewfdeCl6nJIN8bV58MisM=
+		F0MgvPccq6A+IB/CNCtw0ebJq5Q=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		At9+ivdvdN4ecDs+45SxuWgOG0k=
+		wmnLB9j+eCvqKYbNS6XntvBEaNQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		B85g8CIaisK63AwNn+A9gfPbPvQ=
+		5eXzyeH577FK+WiftM9ATKu3N8k=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/LICENSE</key>
 		<data>
-		OcKkLoSxJYMoN4TPg2DHi+EBh5M=
+		Nd9pdAPaZryVWVRUnQC0Uw+CJuc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
@@ -180,13 +180,17 @@
 		<data>
 		cQnTf+1bvOcgUjcrJI6qs1hkrhA=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/images/ic_iconlogo.png</key>
+		<data>
+		UxLCkzI7JEGE8XILbLeY2Ou0Dy8=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/images/ic_jibenziliaocheck.png</key>
 		<data>
 		KfAzR2AdWTAK7y2QSZPJiqTBN0Q=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/images/ic_logo.png</key>
 		<data>
-		wrhN3Ms2gh7/fQiONzKdqhzW/og=
+		XlASzax5nSnIg7TJliuLUwa/8hE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/images/ic_mendianguanli.png</key>
 		<data>
@@ -210,7 +214,19 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		lmRj/Yoand/AIyT5NncFtjAvAq4=
+		Bqp13Ylp9yeL18kgEhTVKy9Y6/s=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/en.json</key>
+		<data>
+		mbdANCym6g90H4gaWspzUSkx4N0=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/localizations.dart</key>
+		<data>
+		CoYyDCjxOZfj70jilamMgAoOpuU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/zh.json</key>
+		<data>
+		QXMtL6y6b8pgmuuVngqFdOft4PE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -219,6 +235,18 @@
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
 		<data>
 		ns2Taajy2z7C8ddJckzMpziWvmY=
+		</data>
+		<key>Frameworks/BaiduTraceSDK.framework/BaiduTraceSDK</key>
+		<data>
+		eyYQCB6v3zrkoSo/y7eBShNMkNM=
+		</data>
+		<key>Frameworks/BaiduTraceSDK.framework/Info.plist</key>
+		<data>
+		VEtPoaGJWOTJ8hq2AxuqimJkgRY=
+		</data>
+		<key>Frameworks/BaiduTraceSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		TPTfRIKSt2HRBWuLZS1is0W3NYA=
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
@@ -238,11 +266,291 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aNAnO4b7aRLNNBGT7upxhKY9hRw=
+		ERlPCsXg+djunQBLnwJrp35PNFs=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVDirectory.cfg</key>
+		<data>
+		+mFmSYYUM/UDBMpVnGgLwUsWbWk=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVHotMap.cfg</key>
+		<data>
+		LQmgSNG41VbYnU1yOUfp4jS15Zs=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVHotcity.cfg</key>
+		<data>
+		Pk3F/tCyYpTys7Bm6C8AVwKGkV8=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVSDirectory.cfg</key>
+		<data>
+		KxFVP4e5108GRb2EV1Qm8iOoDwY=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVStreet.cfg</key>
+		<data>
+		bHjDdw5yZE18NXN2vi+As7AadRk=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/DVVersion.cfg</key>
+		<data>
+		WO/b1vGNI+hmukDL7X4rDchZ5+A=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/map.rs</key>
+		<data>
+		HAmprdD21V9sK/qGFtyEUUeeGwA=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/map.sty</key>
+		<data>
+		Ntkl25ADFPNbJO0Mo0/A+86DacA=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/reduct.rs</key>
+		<data>
+		qxEytKv4F8HyPAv77cvSOcJWxfg=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/reduct.sty</key>
+		<data>
+		lCJCCf2Cxk+ix51IggBtRdTqpi8=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/traffic.rs</key>
+		<data>
+		WNIXvM46Wk0irXLtdK1qfpcht4g=
+		</data>
+		<key>mapapi.bundle/files/cfg/a/mode_1/traffic.sty</key>
+		<data>
+		D9XS/sWGima2jkhQ5ubfxK4Irq0=
+		</data>
+		<key>mapapi.bundle/files/cfg/idrres/DVIndoor.cfg</key>
+		<data>
+		r/l5NRl8fBzdZJpxTU1SiZtizpc=
+		</data>
+		<key>mapapi.bundle/files/cfg/idrres/ResPackIndoorMap.rs</key>
+		<data>
+		MoDvg5HmBPNXE6kRU5+YxRw3Ajo=
+		</data>
+		<key>mapapi.bundle/files/cfg/idrres/baseindoormap.sty</key>
+		<data>
+		zursBSifdYFbNFIC1F4sQA0nGog=
+		</data>
+		<key>mapapi.bundle/images/baidumap_logo.png</key>
+		<data>
+		DzBfAgoQUgxPMbQIsprkAp7Ei6E=
+		</data>
+		<key>mapapi.bundle/images/baidumap_logo@2x.png</key>
+		<data>
+		vMKjuRW/j5wr9xoymviG197Zr8c=
+		</data>
+		<key>mapapi.bundle/images/bnavi_icon_location_fixed.png</key>
+		<data>
+		TJguIvXRK76V4K5+XsRdOb6x0P8=
+		</data>
+		<key>mapapi.bundle/images/bnavi_icon_location_fixed@2x.png</key>
+		<data>
+		pdVflaJOvDpMVEggPqUlX+MJ5KE=
+		</data>
+		<key>mapapi.bundle/images/direction_wheel.png</key>
+		<data>
+		iHRK3KipgItoX74gI/89DZN3PjM=
+		</data>
+		<key>mapapi.bundle/images/direction_wheel@2x.png</key>
+		<data>
+		iQgen3ytV8DjRVGIC1dTlPGGEwE=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left.png</key>
+		<data>
+		O0+IRzEFUw/yAbZWeCfX4dLQXkk=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left@2x.png</key>
+		<data>
+		/rU6Y847acsfGZzFs1+pJLn1WEE=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left_highlighted.png</key>
+		<data>
+		fDxs+MnKC2JOEbNT2EZKU8ODuNs=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left_highlighted@2x.png</key>
+		<data>
+		ckPd+gT+FYUff/QgNE0fJAB2ElU=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right.png</key>
+		<data>
+		nA8VG/hHtp+GVlkdgjDCwuDi7sQ=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right@2x.png</key>
+		<data>
+		Qm67GEiWvSc80ugr+bb1EQjoL+M=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right_highlighted.png</key>
+		<data>
+		LMI/r14jxVxQi9ASqFZjDutJyFA=
+		</data>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right_highlighted@2x.png</key>
+		<data>
+		tchkuHu7eBBp3YFQ3EnOU41jyiA=
+		</data>
+		<key>mapapi.bundle/images/icon_cellphone.png</key>
+		<data>
+		DwMRbjc8Pp1klT/PpJyFjLQ7ya8=
+		</data>
+		<key>mapapi.bundle/images/icon_cellphone2.png</key>
+		<data>
+		xjybHiAl8M3ZaUGt3hz42IlDsRA=
+		</data>
+		<key>mapapi.bundle/images/icon_cellphone2@2x.png</key>
+		<data>
+		V1ji4R6MM8hKwQyECteciLAfzkA=
+		</data>
+		<key>mapapi.bundle/images/icon_cellphone@2x.png</key>
+		<data>
+		OtE35EVEhhEG6Qv5TktNaxFilLA=
+		</data>
+		<key>mapapi.bundle/images/icon_center_point.png</key>
+		<data>
+		905bMdXug2eJ9g+JYSxP+BTeMZs=
+		</data>
+		<key>mapapi.bundle/images/icon_center_point@2x.png</key>
+		<data>
+		GsJ4vltkynSRsZF2yGW4YheL4PM=
+		</data>
+		<key>mapapi.bundle/images/icon_compass.png</key>
+		<data>
+		RmlWq40S67yCAXRdappIuZr8u2o=
+		</data>
+		<key>mapapi.bundle/images/icon_compass@2x.png</key>
+		<data>
+		QNVG4u6scCAWrp7xlD1rC2bx3Os=
+		</data>
+		<key>mapapi.bundle/images/icon_compass_background.png</key>
+		<data>
+		7gsL2n8KAfb90kDPgOFi4apBV3A=
+		</data>
+		<key>mapapi.bundle/images/icon_compass_background@2x.png</key>
+		<data>
+		1XWUDoeGvtkv5VzvvyhsWEvSzmA=
+		</data>
+		<key>mapapi.bundle/images/icon_direction.png</key>
+		<data>
+		2OnV4DqhxvBQuPsFKFRjstA683s=
+		</data>
+		<key>mapapi.bundle/images/icon_direction@2x.png</key>
+		<data>
+		2yLPK/YtIpxQCm2hjm2ZjuU3S/c=
+		</data>
+		<key>mapapi.bundle/images/icon_line_nofocus.png</key>
+		<data>
+		Uwg7gBCrh1S1FYmr4OscByLpvUg=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_bus.png</key>
+		<data>
+		+5Gn3EJB3Q1mYZ9ztBvp4sG6eEM=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_bus@2x.png</key>
+		<data>
+		hbY86gmdWx0FRdiolwJhhL1FISY=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_end.png</key>
+		<data>
+		CzomzEELeQ60Ow+UL8nfBZoWj1M=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_end@2x.png</key>
+		<data>
+		OXQCjJpMkk5NBgtGn1g3f9xRhls=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_rail.png</key>
+		<data>
+		qTO8rnzYwyG3vWd4VGirDPYKxo4=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_rail@2x.png</key>
+		<data>
+		GY49WKa9gISx62jXJVZJ+LUndOA=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_start.png</key>
+		<data>
+		UgmFKzymyvRR0xCQmooEQ2KDKzE=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_start@2x.png</key>
+		<data>
+		j6bkC0F2dnYJxq1Ip9jeNGQszEY=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_waypoint.png</key>
+		<data>
+		Pzj6Uht0rjY7SG3yQaF6tpKWue8=
+		</data>
+		<key>mapapi.bundle/images/icon_nav_waypoint@2x.png</key>
+		<data>
+		JFGKQnNnpfQDzLp6nMsNu6KGIMc=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_left.png</key>
+		<data>
+		Bo302TtVDCwDvs8vFGoCcULUUas=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_left@2x.png</key>
+		<data>
+		7/utfjtHwV1cUYjLiPNEZRL0iXg=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_left_highlighted.png</key>
+		<data>
+		NTlmZ2D6cFL+BTfNpcTBECwyPxw=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_left_highlighted@2x.png</key>
+		<data>
+		NGNTdGNkUAL3psga7s638ldOeS4=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_right.png</key>
+		<data>
+		4Eg1Qh2Wq/Ivcn1v03XsQmDqv7E=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_right@2x.png</key>
+		<data>
+		3O19he6VTTGYp9G345KiqKbOE80=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_right_highlighted.png</key>
+		<data>
+		e4x6rrCEugE2VDtgtFS/9ESnZ9g=
+		</data>
+		<key>mapapi.bundle/images/icon_paopao_middle_right_highlighted@2x.png</key>
+		<data>
+		j4PPuXpc4iySTYuhk6qGWUGqgEs=
+		</data>
+		<key>mapapi.bundle/images/lineDashTexture.png</key>
+		<data>
+		+/nYUlVgUpTAXggl82nRmgpS0Bw=
+		</data>
+		<key>mapapi.bundle/images/lineDash_Dot.png</key>
+		<data>
+		kBqPYY6ipAVjCm8F84iIoCRpRgY=
+		</data>
+		<key>mapapi.bundle/images/lineDash_Square.png</key>
+		<data>
+		GpGK+NqwO2NrOv9DB2PbvrNGo9w=
+		</data>
+		<key>mapapi.bundle/images/line_texture.png</key>
+		<data>
+		jaxkiepRcqOoBgcqVk/Ru6J5wtg=
+		</data>
+		<key>mapapi.bundle/images/pin_green.png</key>
+		<data>
+		VuKIUMKkd/lvajo4O3YweLX9GLw=
+		</data>
+		<key>mapapi.bundle/images/pin_green@2x.png</key>
+		<data>
+		RIN3nGI//tlnTEwo3hf2gEdbbPw=
+		</data>
+		<key>mapapi.bundle/images/pin_purple.png</key>
+		<data>
+		4WKTyVZtM2E1rAYvGTinECmoaOU=
+		</data>
+		<key>mapapi.bundle/images/pin_purple@2x.png</key>
+		<data>
+		LhKGiGpCN/dU2KwOxraFv5N1UGA=
+		</data>
+		<key>mapapi.bundle/images/pin_red.png</key>
+		<data>
+		H+3wGKheP+K0DrxWfBMHmJvrTlU=
+		</data>
+		<key>mapapi.bundle/images/pin_red@2x.png</key>
+		<data>
+		MZF9rcRnDKIJg42uoGdmg2NZhKI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -460,33 +768,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			58j7fausuxthlK5grrQtUQhbyUU=
+			ogp+bfZMYNVen5r+laPHAPYBklk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2xZyiDQFlMJstnyzYoDfLWg7Ba1kt7DkRFS3zQ5PxF8=
+			gVbL3OU//gz0C2feHyaLhDZFyU+fDJFdlysfcLgghUo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+RMDMqvOFLwKK+YIbCpym5j6cv0=
+			xku6u2+fl6ZiX0MyCt4weZmUVwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			e3s5s47ZD43rFy6vKz72MQ+pFhw5YQpodCCcR1z3Ez0=
+			Z4zX/KFwUOn+ies1c36Su26X0b1Mu5t/kjdLIapQk5c=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			atlNkzpgzLN4uZv1yitVOEZ03Go=
+			CPUBoNfqpwESCPbLoP/RKMdTtHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ry44KTszDzs85AE0diEZOH+QdBX6NYJyhmw3UlaEPFQ=
+			RaXdFzHxwzrNC1Tu+H35JchXtVe2Q2+iXjcyrY2tSfM=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -504,44 +812,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0ZU/mwGgycgw6KTQ302gM8TGnLw=
+			HxiSYhBfyuIQp8FePCRhZrQn1BE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KaHtghI4rLTflqqaawHSkU/DdQiPMF1lyZU2fgQsO8g=
+			9yh/BTIRsN6IGJ4ELmEax3bmNBc+igbd+ZAxKDBm0EY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VXJLybodIfSSAd1xGr+wu44kNj0=
+			w2Mk5diSAxonhsW9V8DTGWkob8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			L/x9+xiRXXUaIMOku+dHjIdP5EWyja3oqTZlYUgrOCQ=
+			NUkF+EuqY7O+5OiY8z6gpUzFD/sdr39MgbJbm40JwGQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z4ITEoVxw0sVsy4lHecrj9/t3Wk=
+			LCs4BEM9fscBPMlj+sg2P17TMnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			qrI23nrZdjEWiZLJILRqru3Rk8fDkfawPt240nRtzsE=
+			xQ6T914SSrtGkURo3AAawLIrh+OLwDDTWgejVYiCG9Q=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			094sh/aYvIe/rqO50z9iySwipMQ=
+			0br4x6BwMVvUMQzIXHvKQ57N6+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			1vDbLf5ZwlFHZIKs4Lb5O/XafTR/5bWUCBpdPr4C5bo=
+			7I1sqr0HpHATJrODiTduLmykx+Ab5RQTxwm0KCsmPqU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -559,22 +867,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e1STMAPM0Fcest2Lq9SM0HPJeYA=
+			0syyxXks67AANVOyAX70/afnAfI=
 			</data>
 			<key>hash2</key>
 			<data>
-			O7v6ezJFmsBM0UhkaaeL7ED1hvyXi3c7HZeVOKj/u70=
+			zWgNHX3gZBMTYtJDfUqnNhbZSC7CLD+z/c23MjjckUY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p/88p8Kff6JzZepelNVPRow2skw=
+			wmu2kcXjORkS2A8X9YS3ySvdQQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xse8QuhkeIjC0bv2SIH1tR9Y0WPFyLsbuYa2muX90Xs=
+			y3i3wA/JUgkLBmZbtNGQC4yAAab8SzFaPip/4BSSfNc=
 			</data>
 		</dict>
 		<key>Debug.xcconfig</key>
@@ -592,11 +900,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8e1tT5ewfdeCl6nJIN8bV58MisM=
+			F0MgvPccq6A+IB/CNCtw0ebJq5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hjr0FzbThgud1UzgOU8l8/dRMKtdAs3YgM9G0Q6Mra4=
+			+nJbpvLPjx+hgwV7om05R50P6uTXCH29GGSPtcg3rIs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -614,22 +922,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			At9+ivdvdN4ecDs+45SxuWgOG0k=
+			wmnLB9j+eCvqKYbNS6XntvBEaNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			92WzQBb+iBTJCUbrBMb4orajsfUlZolgKh8j8p98g+A=
+			nIDnkNsbNR9fgt//hy6FTqXvqyfMqzK+LBhCbGvPhOE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B85g8CIaisK63AwNn+A9gfPbPvQ=
+			5eXzyeH577FK+WiftM9ATKu3N8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NTbJzi19Ef93JdkmX7p1v7XZqjt6cA70+QWYAhkmiWU=
+			gsFHuiRwk/i59zkmr5r+xu5B0dt2dL0tVQWzTlVcgYM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -647,11 +955,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OcKkLoSxJYMoN4TPg2DHi+EBh5M=
+			Nd9pdAPaZryVWVRUnQC0Uw+CJuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			O117p5A15WF53d5dkG7jT9esVDSfR2ecpHBtUCpu2QE=
+			i8LVKY31lDSjT3k0clo/Y7eh10dq139OMmYjIEV2z94=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
@@ -731,6 +1039,17 @@
 			W5aAo1Dvy8ff+Lx6wrVip6Ak8urLdtcQdGzEUp+Q2M4=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/images/ic_iconlogo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UxLCkzI7JEGE8XILbLeY2Ou0Dy8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ed5S1wu48xZ2Psf8szhlLOevXvpik10QmrCCRy5BiAQ=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/images/ic_jibenziliaocheck.png</key>
 		<dict>
 			<key>hash</key>
@@ -746,11 +1065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wrhN3Ms2gh7/fQiONzKdqhzW/og=
+			XlASzax5nSnIg7TJliuLUwa/8hE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gr27rOHZEkCPI1Y5yRVgD9n3ZeXS2SGjX+r/cu89Kr0=
+			WDkX1LxolyBS0iB84tvQI+VVX/DLaazCgWUNt7PodY8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/images/ic_mendianguanli.png</key>
@@ -812,11 +1131,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lmRj/Yoand/AIyT5NncFtjAvAq4=
+			Bqp13Ylp9yeL18kgEhTVKy9Y6/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			OsZAs6TBvInGy3sCtiI1qo2A41h3SWwq/KZ/LeknfmE=
+			c2Ie34eRQ38SADworMQLfuqFFld2IlPK4Wgyxwusa9A=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/en.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mbdANCym6g90H4gaWspzUSkx4N0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jIk+vuc96rQ6OrUCFtkohqUMcCJvaRKA6gS8qQv0Ba0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/localizations.dart</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CoYyDCjxOZfj70jilamMgAoOpuU=
+			</data>
+			<key>hash2</key>
+			<data>
+			voBaDcby3cl8Wf9X6IGYctt7Xuk3Y+j4+i1TJleCMKw=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/lib/locales/zh.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QXMtL6y6b8pgmuuVngqFdOft4PE=
+			</data>
+			<key>hash2</key>
+			<data>
+			EBsOfl8RqWjHQyJ/wAp+GEAsxGsmMkonxa0Ouz8F5qE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -839,6 +1191,39 @@
 			<key>hash2</key>
 			<data>
 			v4Nv2hk7SzTPxxur55s/QvY/SR5rlWIK/WZYUrTIMDc=
+			</data>
+		</dict>
+		<key>Frameworks/BaiduTraceSDK.framework/BaiduTraceSDK</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eyYQCB6v3zrkoSo/y7eBShNMkNM=
+			</data>
+			<key>hash2</key>
+			<data>
+			TxZoIr9siPMqBLC1EAVBl/82HFX41mKsX082vsmILmc=
+			</data>
+		</dict>
+		<key>Frameworks/BaiduTraceSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VEtPoaGJWOTJ8hq2AxuqimJkgRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yoqRlyJs8cgRmP/pV4SQGxdrhq4hvY+UVANrke4lH7U=
+			</data>
+		</dict>
+		<key>Frameworks/BaiduTraceSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TPTfRIKSt2HRBWuLZS1is0W3NYA=
+			</data>
+			<key>hash2</key>
+			<data>
+			c0sFiOFAYJDRlGhR/GvZxVU+YfNhLOHXC8l+VhHHGOU=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Flutter</key>
@@ -883,6 +1268,776 @@
 			<key>hash2</key>
 			<data>
 			INkC1JLiLe7AB9SqeZRmj6oaRlkPwCvM96J3pilvsnc=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVDirectory.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+mFmSYYUM/UDBMpVnGgLwUsWbWk=
+			</data>
+			<key>hash2</key>
+			<data>
+			9SfnqcgRJ6Aj9oJSfWNpfksZIkI6VWlYX4n7j0c/OFY=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVHotMap.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LQmgSNG41VbYnU1yOUfp4jS15Zs=
+			</data>
+			<key>hash2</key>
+			<data>
+			E9T7wNHLfCdhZBo2MsRA9vHZGdznMbjDLLNeZSsLOfk=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVHotcity.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pk3F/tCyYpTys7Bm6C8AVwKGkV8=
+			</data>
+			<key>hash2</key>
+			<data>
+			F1i2PY0qr2bNDdcbykiMV8QZOI4BE8+1te44a7B9JDs=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVSDirectory.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KxFVP4e5108GRb2EV1Qm8iOoDwY=
+			</data>
+			<key>hash2</key>
+			<data>
+			8154yrMBl/qiGOKfDcSETQq3bzOxntHRUZcsWzxbnms=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVStreet.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bHjDdw5yZE18NXN2vi+As7AadRk=
+			</data>
+			<key>hash2</key>
+			<data>
+			xO47jP49Rb11gkTBQK8s0FFLZcvVAlRa3ynUyx5It0o=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/DVVersion.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WO/b1vGNI+hmukDL7X4rDchZ5+A=
+			</data>
+			<key>hash2</key>
+			<data>
+			6zceD0Qsp4jMK26wFsfSY5FyGKZaP+kY0fp3VY9lwc0=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/map.rs</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HAmprdD21V9sK/qGFtyEUUeeGwA=
+			</data>
+			<key>hash2</key>
+			<data>
+			K/PXLBY43UbZOQKfKFE9w/HIePEjM27c+VuJ7Qzktfc=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/map.sty</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ntkl25ADFPNbJO0Mo0/A+86DacA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JV4FqZlf9k2NbtBWFYTWP6Lh+LkaEHftivR9r6bGDl8=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/reduct.rs</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qxEytKv4F8HyPAv77cvSOcJWxfg=
+			</data>
+			<key>hash2</key>
+			<data>
+			LeONNcYVoWeSjANPrpuzKqT+vVIzr1axck6f56zYlnk=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/reduct.sty</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lCJCCf2Cxk+ix51IggBtRdTqpi8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kFRaMdrFyMU2yc9LnxkKv/CoNN1WIf07Dw+OAcpwTOc=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/traffic.rs</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WNIXvM46Wk0irXLtdK1qfpcht4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			JIif+uhpy/Y5yK2IEfWKfba3CrnTWylfj+AOeeTzM7g=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/a/mode_1/traffic.sty</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D9XS/sWGima2jkhQ5ubfxK4Irq0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xgg8gHHpjtkYs7G9njCccpXb55F0NEQKja7BLFoiq0Q=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/idrres/DVIndoor.cfg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r/l5NRl8fBzdZJpxTU1SiZtizpc=
+			</data>
+			<key>hash2</key>
+			<data>
+			VDXfuz1G0KZrtriOA0XKp71h7RQvV8fSfyDurmD2Wio=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/idrres/ResPackIndoorMap.rs</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MoDvg5HmBPNXE6kRU5+YxRw3Ajo=
+			</data>
+			<key>hash2</key>
+			<data>
+			tryaZMlb2iNmuUF2xXavAK/aoD9AGq38bVGZbR3x0Hw=
+			</data>
+		</dict>
+		<key>mapapi.bundle/files/cfg/idrres/baseindoormap.sty</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zursBSifdYFbNFIC1F4sQA0nGog=
+			</data>
+			<key>hash2</key>
+			<data>
+			/kIabn4cciUI7SRhL3hIlXzqvUDR9p4agKyWprM8QbQ=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/baidumap_logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DzBfAgoQUgxPMbQIsprkAp7Ei6E=
+			</data>
+			<key>hash2</key>
+			<data>
+			YeElJ2ZtDeEO5DJQVxSjtSZ7q5akC9rolxwegHXZvcc=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/baidumap_logo@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vMKjuRW/j5wr9xoymviG197Zr8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			YXa1wPRirbEPPbVmMC52SfdP3tmD8pnviT76mGIyqIk=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/bnavi_icon_location_fixed.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TJguIvXRK76V4K5+XsRdOb6x0P8=
+			</data>
+			<key>hash2</key>
+			<data>
+			IqEVqgPfbR8zxLl6a9IA4J5HEpb+6v9DSiQbS7t3Iro=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/bnavi_icon_location_fixed@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pdVflaJOvDpMVEggPqUlX+MJ5KE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZJC1dI9jWSkKghd6nCM7oh1DyE/n8HPvxBI+DvqW+vA=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/direction_wheel.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iHRK3KipgItoX74gI/89DZN3PjM=
+			</data>
+			<key>hash2</key>
+			<data>
+			BhnY4LDiXwz1LgDIP89D7/Y0YguAuiIoh6vNQ3l5mPs=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/direction_wheel@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQgen3ytV8DjRVGIC1dTlPGGEwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			JeJI+oDTk/IzyNsuUGfjSFGOmuICb9JDZwouPdDoDV4=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O0+IRzEFUw/yAbZWeCfX4dLQXkk=
+			</data>
+			<key>hash2</key>
+			<data>
+			e3lw8VV1ValDM63yLtSAfSyb/pNjgvVA10knVGGp5gE=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/rU6Y847acsfGZzFs1+pJLn1WEE=
+			</data>
+			<key>hash2</key>
+			<data>
+			vtJL5n3mQWFuvcrQmGJswzSWq7j0IeXGi9VD0hhfdkU=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fDxs+MnKC2JOEbNT2EZKU8ODuNs=
+			</data>
+			<key>hash2</key>
+			<data>
+			FGnusBY4NYCsPqpBsJTb+Q2QuIIflyMv/RG8sF4Hii8=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_left_highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ckPd+gT+FYUff/QgNE0fJAB2ElU=
+			</data>
+			<key>hash2</key>
+			<data>
+			p+uXSOoGx28uMcxyAuXky6nqDPGTxkMxnlJatvxuv4Y=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nA8VG/hHtp+GVlkdgjDCwuDi7sQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			5NEslzCFwYOMijGirQEygbL55o2eFk2X+zPzBdYAQ1k=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qm67GEiWvSc80ugr+bb1EQjoL+M=
+			</data>
+			<key>hash2</key>
+			<data>
+			tThTPgC6H8WdfgFuhpD1izKuwgueNaNlSBoqK+dqXto=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LMI/r14jxVxQi9ASqFZjDutJyFA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HWW7F1Hsqxw9a3HWRGnNy/qFgn0fCyMlu5ZpOI9kulY=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_action_paopao_middle_right_highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tchkuHu7eBBp3YFQ3EnOU41jyiA=
+			</data>
+			<key>hash2</key>
+			<data>
+			BXfFGjXsw+FTWtvKLnJ6skE8u9hnvsSDJLhtOz2RE/k=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_cellphone.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DwMRbjc8Pp1klT/PpJyFjLQ7ya8=
+			</data>
+			<key>hash2</key>
+			<data>
+			BqB4xx5ixMWhrcjkPcjov29x1c+FX+R2Gs9zpT6sGhE=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_cellphone2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xjybHiAl8M3ZaUGt3hz42IlDsRA=
+			</data>
+			<key>hash2</key>
+			<data>
+			rfkvfvbF6b72hNccgsOw8XMODEEHJoQI3v9NUrhBwyE=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_cellphone2@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V1ji4R6MM8hKwQyECteciLAfzkA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ahXa/SaWn6fGcj+GuNnO+IjKsfFOwxXA4QFvs8R6Szo=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_cellphone@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OtE35EVEhhEG6Qv5TktNaxFilLA=
+			</data>
+			<key>hash2</key>
+			<data>
+			x1/RnGQa5nvHFHc6QtAjgSRK+pqGxmOBfQeoD1olPW0=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_center_point.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			905bMdXug2eJ9g+JYSxP+BTeMZs=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZIAnAJqMDMs0MxNkBgQ21PlUTbfzTCBDvLvylzpNzcI=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_center_point@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GsJ4vltkynSRsZF2yGW4YheL4PM=
+			</data>
+			<key>hash2</key>
+			<data>
+			MrZgGgpKlGIGUYvaLWCGu/e2UDH74EXv0/b+QtBKpLQ=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_compass.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RmlWq40S67yCAXRdappIuZr8u2o=
+			</data>
+			<key>hash2</key>
+			<data>
+			q9siJv2pb4jyBYGuIDjMhTinkClxUSLxYN62aHFBmYw=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_compass@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QNVG4u6scCAWrp7xlD1rC2bx3Os=
+			</data>
+			<key>hash2</key>
+			<data>
+			2/1gXYqiVTKiBtp8dwFd+uW9NS+t/PO7nbY84pa8m4A=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_compass_background.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7gsL2n8KAfb90kDPgOFi4apBV3A=
+			</data>
+			<key>hash2</key>
+			<data>
+			ub2VyGr09DXPRZEw58jhbV3fvjIuRr3ASUe8FODez+I=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_compass_background@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1XWUDoeGvtkv5VzvvyhsWEvSzmA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JWsX9799HqGgBk/8VckkUmpKr8ctoNsmvpo0PmM437M=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_direction.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2OnV4DqhxvBQuPsFKFRjstA683s=
+			</data>
+			<key>hash2</key>
+			<data>
+			OeVCsKt3JbftmDazjHpA/Hrm3ENWNsiLjSMV2CzQX5Y=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_direction@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2yLPK/YtIpxQCm2hjm2ZjuU3S/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			D12BCEXOOMOe1ppFKKWfHgn7/MQSe62Ngg0wkOJXq6o=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_line_nofocus.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Uwg7gBCrh1S1FYmr4OscByLpvUg=
+			</data>
+			<key>hash2</key>
+			<data>
+			1fYcaDh+F0oxMntIWgZwc+HUR00Hy8nH/+6cntNVeXQ=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_bus.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+5Gn3EJB3Q1mYZ9ztBvp4sG6eEM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kp725299+VffY3OHP2PNnkIpwQQEW9QmW/Qs5kwkwJU=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_bus@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hbY86gmdWx0FRdiolwJhhL1FISY=
+			</data>
+			<key>hash2</key>
+			<data>
+			DK3P15G4F0Fov44OjOuI1O4LWa0XLE8UhHfMLiaxWDE=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_end.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CzomzEELeQ60Ow+UL8nfBZoWj1M=
+			</data>
+			<key>hash2</key>
+			<data>
+			VvDQaiEqCm/KYd+z2Q7twz63YDk7zRoQ10kOUED57nc=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_end@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OXQCjJpMkk5NBgtGn1g3f9xRhls=
+			</data>
+			<key>hash2</key>
+			<data>
+			N77ZOwSFXByYQZwCXtiPLEa/oCKsnI66iXOMcqyY6xg=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_rail.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qTO8rnzYwyG3vWd4VGirDPYKxo4=
+			</data>
+			<key>hash2</key>
+			<data>
+			CxDMlijccMd6QNZe25zhchqqIb/x8Wsdk/QkoYIHHtk=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_rail@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GY49WKa9gISx62jXJVZJ+LUndOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			dLHsm9BeIyKe3CMXP+aPWaCgacI8MAm0z2CiMojHfgs=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_start.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UgmFKzymyvRR0xCQmooEQ2KDKzE=
+			</data>
+			<key>hash2</key>
+			<data>
+			b2D85oZDdJ0bsNX7n4g+HgiE79fYGXMJ9jsZpL1xF08=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_start@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j6bkC0F2dnYJxq1Ip9jeNGQszEY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jc/QmayNG5dNVJ9QKUCFFcQChfx1RU7ql+e6QFWYWe4=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_waypoint.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pzj6Uht0rjY7SG3yQaF6tpKWue8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Rec0oeHJjHtEhwVFe5qqQHsCvN8/BS+/6iH270U4Yeo=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_nav_waypoint@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JFGKQnNnpfQDzLp6nMsNu6KGIMc=
+			</data>
+			<key>hash2</key>
+			<data>
+			1y8n/A28eugKI5ywXO7cXxfLWlnINpWQFj+eK35HNjs=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_left.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bo302TtVDCwDvs8vFGoCcULUUas=
+			</data>
+			<key>hash2</key>
+			<data>
+			Em4DWOp70H+vGAk1Yqy352jRJwXsflTJhELr3zHwrt0=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_left@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7/utfjtHwV1cUYjLiPNEZRL0iXg=
+			</data>
+			<key>hash2</key>
+			<data>
+			qqCdDQ4oTq1vNlDpnRyYj6eZ2PoWwh+Lc4ze5DXOvJQ=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_left_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NTlmZ2D6cFL+BTfNpcTBECwyPxw=
+			</data>
+			<key>hash2</key>
+			<data>
+			fzyj8lwrTsjfQLQqoeIMRiazjGaUDuJWPxGeAt9Lfuw=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_left_highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NGNTdGNkUAL3psga7s638ldOeS4=
+			</data>
+			<key>hash2</key>
+			<data>
+			qHOXl5Z1MFdTDtH6IgA9J/MAqJY5y6z1zmwwo3kheQM=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_right.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Eg1Qh2Wq/Ivcn1v03XsQmDqv7E=
+			</data>
+			<key>hash2</key>
+			<data>
+			PstEJIsuPwITqQugegOAyLk75xd8sLPLJbVk/V6IfMY=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_right@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3O19he6VTTGYp9G345KiqKbOE80=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sxd6o1EQ6eY+SYbX6w9Y8Vcu7j1/FiSUaCLXk+d5MeQ=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_right_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e4x6rrCEugE2VDtgtFS/9ESnZ9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			xGtdf5s2misNRW+AvWaJSwEd8BiAxIfUKgthi504Tc4=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/icon_paopao_middle_right_highlighted@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j4PPuXpc4iySTYuhk6qGWUGqgEs=
+			</data>
+			<key>hash2</key>
+			<data>
+			sI6mViJ5j3xog1zy8DV6OU4Jk28QEa29/9ZJi7xP2V0=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/lineDashTexture.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+/nYUlVgUpTAXggl82nRmgpS0Bw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3vWWrH76GF+YJgslcbaBP096cskXxNag9cbu76jlBCk=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/lineDash_Dot.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kBqPYY6ipAVjCm8F84iIoCRpRgY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yWBIWnK0V3iI0jVVyGeALlJrM+e/KqqbtGWlAzR6XOo=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/lineDash_Square.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GpGK+NqwO2NrOv9DB2PbvrNGo9w=
+			</data>
+			<key>hash2</key>
+			<data>
+			GQTOs8IrXfJuZuFGL6KmiwrZW1Oalbhq3XQ12jWefbI=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/line_texture.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jaxkiepRcqOoBgcqVk/Ru6J5wtg=
+			</data>
+			<key>hash2</key>
+			<data>
+			KGFuGB+4EAxhYhBuKcx/JwfuTZUR1Bzu8rQz+FUgM0E=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_green.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VuKIUMKkd/lvajo4O3YweLX9GLw=
+			</data>
+			<key>hash2</key>
+			<data>
+			OQ1C+umUo5cn5+M9aCe6KXxxBgzNDVDqoS8/ND52ucw=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_green@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RIN3nGI//tlnTEwo3hf2gEdbbPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			cmT5dagJ5LMIlHEMkVMq1JjDDsyrOArDzJ1DQA6ybEY=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_purple.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4WKTyVZtM2E1rAYvGTinECmoaOU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ttnZAsxw4LkPZYfJgUzkSpAPGvtdR0myWpPRBU4QmIo=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_purple@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LhKGiGpCN/dU2KwOxraFv5N1UGA=
+			</data>
+			<key>hash2</key>
+			<data>
+			QYC/Td8JNb1SQUEWEeOMQuZOPTwgoIok1+KeS4xJ0sw=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_red.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H+3wGKheP+K0DrxWfBMHmJvrTlU=
+			</data>
+			<key>hash2</key>
+			<data>
+			RLe7fFPelAqignftiPJqbstYCTvSxL5akNSqvnl/ZME=
+			</data>
+		</dict>
+		<key>mapapi.bundle/images/pin_red@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MZF9rcRnDKIJg42uoGdmg2NZhKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yl7GwWf1rFPpMoVeO0K1FXoev5ZOu14N7/DiCKVbFnc=
 			</data>
 		</dict>
 	</dict>

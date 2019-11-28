@@ -27,6 +27,8 @@ dependencies:
   dio: ^2.1.0
   json_annotation: ^0.2.3  
   shared_preferences: "^0.4.2"
+  flutter_i18n: ^0.6.3  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -41,6 +43,7 @@ flutter:
   # 资源图片路径
   assets:
     - images/
+    - lib/locales/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

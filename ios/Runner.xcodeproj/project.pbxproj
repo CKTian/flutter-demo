@@ -20,6 +20,23 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		A848330123850BCF002608CC /* FlutterNativePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A848330023850BCF002608CC /* FlutterNativePlugin.m */; };
+		A848330423851F78002608CC /* BaiduTraceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848330323851F78002608CC /* BaiduTraceSDK.framework */; };
+		A848330523851F78002608CC /* BaiduTraceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A848330323851F78002608CC /* BaiduTraceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8483309238532CF002608CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8483308238532CF002608CC /* CoreLocation.framework */; };
+		A848330B238532DD002608CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848330A238532DD002608CC /* QuartzCore.framework */; };
+		A848330D238532E8002608CC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848330C238532E8002608CC /* OpenGLES.framework */; };
+		A848330F238532F4002608CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848330E238532F4002608CC /* SystemConfiguration.framework */; };
+		A8483311238532FF002608CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8483310238532FF002608CC /* CoreGraphics.framework */; };
+		A848331323853307002608CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848331223853307002608CC /* Security.framework */; };
+		A848331523853312002608CC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A848331423853312002608CC /* libsqlite3.0.tbd */; };
+		A848331723853319002608CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848331623853319002608CC /* CoreTelephony.framework */; };
+		A848332923853B41002608CC /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848332823853B41002608CC /* BMKLocationKit.framework */; };
+		A848332B23853B6A002608CC /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A848332A23853B6A002608CC /* BMKLocationKit.framework */; };
+		A848332D23853D39002608CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A848332C23853D39002608CC /* libc++.tbd */; };
+		A848332F23853F4A002608CC /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A848332E23853F49002608CC /* mapapi.bundle */; };
+		A89DE53F2387BFD300852F50 /* MyPlatformViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A89DE53E2387BFD300852F50 /* MyPlatformViewObject.m */; };
+		A8C386C7238660D5002314E0 /* MyPlatformViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C386C6238660D5002314E0 /* MyPlatformViewFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A848330523851F78002608CC /* BaiduTraceSDK.framework in Embed Frameworks */,
 				3B80C3951E831B6300D905FE /* App.framework in Embed Frameworks */,
 				9705A1C71CF904A300538489 /* Flutter.framework in Embed Frameworks */,
 			);
@@ -57,6 +75,30 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A334B6EC95831EB46C480E05 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848330023850BCF002608CC /* FlutterNativePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterNativePlugin.m; sourceTree = "<group>"; };
+		A848330223850BE1002608CC /* FlutterNativePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterNativePlugin.h; sourceTree = "<group>"; };
+		A848330323851F78002608CC /* BaiduTraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduTraceSDK.framework; path = ../../Downloads/BaiduTraceSDK.framework; sourceTree = "<group>"; };
+		A8483306238528A7002608CC /* BaiduTraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduTraceSDK.framework; sourceTree = "<group>"; };
+		A8483308238532CF002608CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A848330A238532DD002608CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A848330C238532E8002608CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A848330E238532F4002608CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A8483310238532FF002608CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A848331223853307002608CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A848331423853312002608CC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A848331623853319002608CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A8483318238534B2002608CC /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		A848331A23853500002608CC /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = ../../Downloads/BaiduMap_IOSSDK_v5.1.0_Output/frameworks/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		A848332123853AB3002608CC /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = ../../Downloads/BaiduMap_IOSSDK_v5.1.0_Output/frameworks/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		A848332823853B41002608CC /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMKLocationKit.framework; path = ../../Downloads/BaiduMap_IOSSDK_v5.1.0_Output/BaiduMap_IOSSDK_v5.1.0_Sample/BMKMapObjCDemo/BMKObjectiveCDemo/Frameworks/BMKLocationKit.framework; sourceTree = "<group>"; };
+		A848332A23853B6A002608CC /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		A848332C23853D39002608CC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A848332E23853F49002608CC /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = ../../Downloads/BaiduMap_IOSSDK_v5.1.0_Output/BaiduMap_IOSSDK_v5.1.0_Sample/BMKWalkObjCDemo/BMKWalkObjectiveCDemo/Frameworks/BaiduMapAPI_Map_For_WalkNavi.framework/mapapi.bundle; sourceTree = "<group>"; };
+		A8483330238540A6002608CC /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		A89DE53D2387BFAF00852F50 /* MyPlatformViewObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlatformViewObject.h; sourceTree = "<group>"; };
+		A89DE53E2387BFD300852F50 /* MyPlatformViewObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlatformViewObject.m; sourceTree = "<group>"; };
+		A8C386C6238660D5002314E0 /* MyPlatformViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlatformViewFactory.m; sourceTree = "<group>"; };
+		A8C386C8238660FD002314E0 /* MyPlatformViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlatformViewFactory.h; sourceTree = "<group>"; };
 		B1ED525C2F5D2104AF9C0967 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +107,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A848332D23853D39002608CC /* libc++.tbd in Frameworks */,
+				A848332923853B41002608CC /* BMKLocationKit.framework in Frameworks */,
+				A848332B23853B6A002608CC /* BMKLocationKit.framework in Frameworks */,
+				A848331723853319002608CC /* CoreTelephony.framework in Frameworks */,
+				A848331523853312002608CC /* libsqlite3.0.tbd in Frameworks */,
+				A848331323853307002608CC /* Security.framework in Frameworks */,
+				A8483311238532FF002608CC /* CoreGraphics.framework in Frameworks */,
+				A848330F238532F4002608CC /* SystemConfiguration.framework in Frameworks */,
+				A848330D238532E8002608CC /* OpenGLES.framework in Frameworks */,
+				A848330B238532DD002608CC /* QuartzCore.framework in Frameworks */,
+				A8483309238532CF002608CC /* CoreLocation.framework in Frameworks */,
 				9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */,
+				A848330423851F78002608CC /* BaiduTraceSDK.framework in Frameworks */,
 				3B80C3941E831B6300D905FE /* App.framework in Frameworks */,
 				9432EDF1E88EAE744C09DEB9 /* libPods-Runner.a in Frameworks */,
 			);
@@ -77,6 +131,19 @@
 		891381CBA5BF3131D19EB9C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A848332C23853D39002608CC /* libc++.tbd */,
+				A848332823853B41002608CC /* BMKLocationKit.framework */,
+				A848332123853AB3002608CC /* BaiduMapAPI_Map.framework */,
+				A848331A23853500002608CC /* BaiduMapAPI_Base.framework */,
+				A848331623853319002608CC /* CoreTelephony.framework */,
+				A848331423853312002608CC /* libsqlite3.0.tbd */,
+				A848331223853307002608CC /* Security.framework */,
+				A8483310238532FF002608CC /* CoreGraphics.framework */,
+				A848330E238532F4002608CC /* SystemConfiguration.framework */,
+				A848330C238532E8002608CC /* OpenGLES.framework */,
+				A848330A238532DD002608CC /* QuartzCore.framework */,
+				A8483308238532CF002608CC /* CoreLocation.framework */,
+				A848330323851F78002608CC /* BaiduTraceSDK.framework */,
 				A334B6EC95831EB46C480E05 /* libPods-Runner.a */,
 			);
 			name = Frameworks;
@@ -98,6 +165,11 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				A8483330238540A6002608CC /* BaiduMapAPI_Map.framework */,
+				A848332E23853F49002608CC /* mapapi.bundle */,
+				A848332A23853B6A002608CC /* BMKLocationKit.framework */,
+				A8483318238534B2002608CC /* BaiduMapAPI_Base.framework */,
+				A8483306238528A7002608CC /* BaiduTraceSDK.framework */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
@@ -126,6 +198,12 @@
 				97C146F11CF9000F007C117D /* Supporting Files */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				A848330023850BCF002608CC /* FlutterNativePlugin.m */,
+				A848330223850BE1002608CC /* FlutterNativePlugin.h */,
+				A8C386C6238660D5002314E0 /* MyPlatformViewFactory.m */,
+				A8C386C8238660FD002314E0 /* MyPlatformViewFactory.h */,
+				A89DE53D2387BFAF00852F50 /* MyPlatformViewObject.h */,
+				A89DE53E2387BFD300852F50 /* MyPlatformViewObject.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -145,7 +223,6 @@
 				B1ED525C2F5D2104AF9C0967 /* Pods-Runner.release.xcconfig */,
 				10BEA18CF4E783DF06B76063 /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +291,7 @@
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				9740EEB41CF90195004384FC /* Debug.xcconfig in Resources */,
+				A848332F23853F4A002608CC /* mapapi.bundle in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
@@ -294,7 +372,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89DE53F2387BFD300852F50 /* MyPlatformViewObject.m in Sources */,
+				A848330123850BCF002608CC /* FlutterNativePlugin.m in Sources */,
 				978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */,
+				A8C386C7238660D5002314E0 /* MyPlatformViewFactory.m in Sources */,
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
@@ -382,6 +463,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"\"$(SRCROOT)/BaiduTraceSDK.framework/Headers\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/shared_preferences\"",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -511,6 +599,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"\"$(SRCROOT)/BaiduTraceSDK.framework/Headers\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/shared_preferences\"",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -534,6 +629,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+					"\"$(SRCROOT)/BaiduTraceSDK.framework/Headers\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/shared_preferences\"",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

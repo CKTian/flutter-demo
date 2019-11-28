@@ -1,0 +1,27 @@
+{
+    "iwmsAppName": "物流供应链协作手机端",
+
+    "homePage": "首页",
+    "functionPage": "功能",
+    "noticePage": "通知",
+    "minePage": "我的",
+
+    "loginButtonText": "登录",
+    "changeLanguage": "切换语言",
+    "English": "英语",
+    "Chinese": "中文",
+    "changeOrg": "切换组织",
+    "updatePassword": "修改密码",
+    "about": "关于",
+    "logout": "退出当前账号",
+    "baiduGPS": "百度鹰眼",
+
+
+    "inputAccount":"请输入登陆账户",
+    "inputPhone":"请输入手机号码",
+    "inputAccountPwd":"请输入登陆密码",
+    "inputMessagePwd":"请输入短信验证码",
+    "sendMessage":"发送验证码",
+    "accountLogin":"账号登陆",
+    "phoneLogin":"手机号登陆"
+  }

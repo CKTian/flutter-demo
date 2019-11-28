@@ -1,5 +1,9 @@
+import 'dart:core';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
+import 'package:flutter_i18n/flutter_i18n_delegate.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:iwms_demo/utils/sharedPreferenceUtil.dart';
 import 'package:iwms_demo/locales/localizations.dart';
@@ -19,36 +23,38 @@ class MyApp extends StatefulWidget {
   }
 }
 
-class _AppSetting {
-  _AppSetting();
-  
-  Null Function(Locale locale) changeLocale;
-  Locale _locale;
-  List<Locale> _supportedLocales = [Locale('zh', 'CH'), Locale('en', 'US')];
-}
+// 国际化方案一：
+// class _AppSetting {
+//   _AppSetting();
+//   Locale _locale;
+  // Null Function(Locale locale) changeLocale;
+  // List<Locale> _supportedLocales = [Locale('zh', 'CH'), Locale('en', 'US')];
+// }
 
 class AppState extends State<MyApp> {
+  // 国际化方案一：
 
-  Locale _locale;
-  List<Locale> supportedLocales = [Locale('zh', 'CH'), Locale('en', 'US')];
+  // Locale _locale;
+  // List<Locale> supportedLocales = [Locale('zh', 'CH'), Locale('en', 'US')];
   // 供外部使用的_AppSetting实例，用于修改app的状态
-  static _AppSetting setting = _AppSetting();
+  // static _AppSetting setting = _AppSetting();
 
   @override
   void initState() {
     super.initState();
-    setting.changeLocale = (Locale locale) {
-      if (setting._supportedLocales
-          .map((locale) {
-            return locale.languageCode;
-          })
-          .toSet()
-          .contains(locale?.languageCode)) {
-        setState(() {
-          setting._locale = locale;
-        });
-      }
-    };
+  // 国际化方案一：
+  //   setting.changeLocale = (Locale locale) {
+  //     if (setting._supportedLocales
+  //         .map((locale) {
+  //           return locale.languageCode;
+  //         })
+  //         .toSet()
+  //         .contains(locale?.languageCode)) {
+  //       setState(() {
+  //         setting._locale = locale;
+  //       });
+  //     }
+  //   };
   }
 
   // This widget is the root of your application.
@@ -56,21 +62,30 @@ class AppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      locale: setting._locale,
+      // locale: setting._locale,
       theme: ThemeData(
-        primaryColor:Color.fromRGBO(59,119,227, 1.0),
+        primaryColor:Color.fromRGBO(69, 118, 255, 1.0),
       ),
       home: SplashPage(),
-      localizationsDelegates: [                             //此处
-        DemoLocalizations.delegate, // 这里加上这个,是自定义的delegate
-        DefaultCupertinoLocalizations.delegate, // 这个截止目前只包含英文
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate, 
-      ],
       localeResolutionCallback: (deviceLocale, supportedLocales) {
         SharedPreferenceUtil.setString("language", '$deviceLocale');
       },
-    supportedLocales: setting._supportedLocales,
+      //  国家化方案一：
+    //   localizationsDelegates: [                             //此处
+    //     DemoLocalizations.delegate, // 这里加上这个,是自定义的delegate
+    //     DefaultCupertinoLocalizations.delegate, // 这个截止目前只包含英文
+    //     GlobalMaterialLocalizations.delegate,
+    //     GlobalWidgetsLocalizations.delegate, 
+    //   ],
+    // supportedLocales: setting._supportedLocales,
+
+    // 国际化方案二：
+    localizationsDelegates: [
+      FlutterI18nDelegate(
+          useCountryCode: false, fallbackFile: 'zh', path: 'lib/locales'),
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate
+    ],
   );
   }
 }
@@ -88,6 +103,8 @@ class MainPage extends StatefulWidget{
 }
 // 第一个主页面的状态 
 class _MainPageState extends State<MainPage>{
+
+  Locale currentLang;
   // 默认选中底部导航的 order
   LayoutType _layoutSelection = LayoutType.home;
 

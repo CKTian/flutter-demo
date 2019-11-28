@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:iwms_demo/locales/localizations.dart';
 import 'package:iwms_demo/loginPage.dart';
 import 'package:iwms_demo/main.dart';
@@ -33,6 +34,7 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
   void initState() { 
     super.initState();
     SharedPreferenceUtil.getString("language").then((String value){
+      print(value);
       if(value =='en_US'){
       _newLanguageValue = 'en';
       }else if(value =='zh_Hans_US'){
@@ -84,6 +86,25 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
         )
     );    
     return options;
+  }
+
+  /**
+   * 调用原生ios界面
+   */
+  Widget getIOSView() {
+    // 安卓
+    // if (defaultTargetPlatform == TargetPlatform.android) {
+    //   return AndroidView(
+    //     viewType: 'MyUiKitView',
+    //   );   
+    // // ios
+    // } else if (defaultTargetPlatform == TargetPlatform.iOS) {
+      return UiKitView(
+        viewType: 'MyUiKitViewDemo',
+      );
+    // }
+
+    // return Text('$defaultTargetPlatform is not yet supported by this plugin');
   }
 
   @override
@@ -223,43 +244,67 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                     children: <Widget>[
                       new MenuItem(
                         icon: Icons.room,
-                        title: DemoLocalizations.of(context).text('baiduGPS'),
+                        // title: DemoLocalizations.of(context).text('baiduGPS'),
+                        title: FlutterI18n.translate(context, "baiduGPS"),
                         onPressed: (){
-                            //TODO: 调用ios原生
-                          runiOSMethod();
+                          //TODO: 调用ios原生
+                          // runiOSMethod().then((value){
+                          //   print(value);
+                          // });
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context)=>getIOSView(),
+                            )
+                          );
                         }
                       ),
                       new MenuItem(
                         icon: Icons.face,
-                        title: DemoLocalizations.of(context).text('changeLanguage'),
+                        // title: DemoLocalizations.of(context).text('changeLanguage'),
+                        title: FlutterI18n.translate(context, "changeLanguage"),
                         onPressed: (){
                           showDialog<Null>(
                             context: context,
                             builder: (BuildContext context) {
                                 return new SimpleDialog(
-                                    title: new Text(DemoLocalizations.of(context).text('changeLanguage')),
+                                  // 国际化方案一：
+                                    // title: new Text(DemoLocalizations.of(context).text('changeLanguage')),
+                                    // 国际化方案二：
+                                    title: new Text(FlutterI18n.translate(context, "changeLanguage")),
                                     children: [
                                       RadioListTile(
                                         value:'zh',
                                         groupValue: _newLanguageValue,
-                                        title: new Text(DemoLocalizations.of(context).text('Chinese')),
-                                        onChanged: (value) {
+                                        // title: new Text(DemoLocalizations.of(context).text('Chinese')),
+                                        title: new Text(FlutterI18n.translate(context, "Chinese")),
+                                        onChanged: (value) async {
                                           setState(() {
                                             _newLanguageValue = value;
                                           });
-                                          AppState.setting.changeLocale(Locale('zh','CH'));
+                                          // 国际化方案一：
+                                          // AppState.setting.changeLocale(Locale('zh','CH'));
+
+                                          // 国际化方案二：
+                                          await FlutterI18n.refresh(context, Locale('zh','CH'));
+                                         
                                           Navigator.of(context).pop();
                                         }
                                       ),
                                       RadioListTile(
                                         value:'en',
                                         groupValue: _newLanguageValue,
-                                        title: new Text(DemoLocalizations.of(context).text('English')),
-                                        onChanged: (value) {
+                                        // title: new Text(DemoLocalizations.of(context).text('English')),
+                                        title: new Text(FlutterI18n.translate(context, "English")),
+                                        onChanged: (value) async {
                                           setState(() {
                                             _newLanguageValue = value;
                                           });
-                                          AppState.setting.changeLocale(Locale('en','EN'));
+                                          // 国际化方案一：
+                                          // AppState.setting.changeLocale(Locale('en','EN'));
+                                          // 国际化方案二：
+                                          // AppState.setting.changeLocale(Locale('en','EN'));
+                                          await FlutterI18n.refresh(context, Locale('en','EN'));
                                           Navigator.of(context).pop();
                                         }
                                       )
@@ -273,13 +318,15 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                       ),
                       new MenuItem(
                         icon: Icons.archive,
-                        title: DemoLocalizations.of(context).text('changeOrg'),
+                        // title: DemoLocalizations.of(context).text('changeOrg'),
+                        title: FlutterI18n.translate(context, "changeOrg"),
                         onPressed: (){
                           showDialog<Null>(
                             context: context,
                             builder: (BuildContext context) {
                                 return new SimpleDialog(
-                                    title: new Text(DemoLocalizations.of(context).text('changeOrg')),
+                                    // title: new Text(DemoLocalizations.of(context).text('changeOrg')),
+                                    title: new Text(FlutterI18n.translate(context, "changeOrg")),
                                     children: buildSimpleDialogOption()
                                         // new SimpleDialogOption(
                                         //     child: new Text('选项 1'),
@@ -303,7 +350,8 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                       ),
                       new MenuItem(
                         icon: Icons.create,
-                        title: DemoLocalizations.of(context).text('updatePassword'),
+                        // title: DemoLocalizations.of(context).text('updatePassword'),
+                        title: FlutterI18n.translate(context, "updatePassword"),
                         onPressed:(){
                           // 点击后跳转
                           Navigator.push(
@@ -316,7 +364,8 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                       ),
                       new MenuItem(
                         icon: Icons.error_outline,
-                        title: DemoLocalizations.of(context).text('about'),
+                        // title: DemoLocalizations.of(context).text('about'),
+                        title: FlutterI18n.translate(context, "about"),
                       ),
                     ]
                   )
@@ -328,7 +377,8 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                       new MaterialButton(
                         color: Colors.red,
                         textColor: Colors.white,
-                        child: new Text(DemoLocalizations.of(context).text('logout')),
+                        // child: new Text(DemoLocalizations.of(context).text('logout')),
+                        child: new Text(FlutterI18n.translate(context, "logout")),
                         onPressed: () {
                           // TODO: 退出登录
                           // 跳转至登录界面
