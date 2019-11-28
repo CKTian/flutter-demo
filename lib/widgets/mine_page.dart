@@ -29,6 +29,9 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
   
   String _newLanguageValue ;
 
+    var roleList =[{'no':1,'name':'[0001]企业'},{'no':2,'name':'[0002]配送中心'},{'no':3,'name':'[0003]承运商'},{'no':4,'name':'[0004]小门店'}];
+
+
   // 初始化状态
   @override
   void initState() { 
@@ -173,7 +176,7 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
                                 left: 30.0,
                               ),
                               child: new Text(
-                                '假程序员',
+                                "所属组织:${roleList[_newValue-1]['name']}",
                                 style: new TextStyle(
                                     color: Colors.white, fontSize: 15.0),
                               ),
@@ -207,36 +210,40 @@ class _MinePageState extends State<MinePage>with AutomaticKeepAliveClientMixin{
           new SliverList(
             delegate: new SliverChildListDelegate(
               <Widget>[
-                new Container(
-                  color: Colors.white,
-                  child: new Padding(
-                    padding: const EdgeInsets.only(
-                      top: 10.0,
-                      bottom: 10.0,
-                    ),
-                    child: new Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        new ContactItem(
-                          count: '10',
-                          title: '通知',
-                        ),
-                        new ContactItem(
-                          count: '1000',
-                          title: '员工',
-                        ),
-                        new ContactItem(
-                          count: '155',
-                          title: '回复',
-                        ),
-                        new ContactItem(
-                          count: '1',
-                          title: '待办任务',
-                        ),
-                      ]
-                    )
-                  ),
-                ),
+                // new Container(
+                //   color: Colors.white,
+                //   child: new Padding(
+                //     padding: const EdgeInsets.only(
+                //       top: 10.0,
+                //       bottom: 10.0,
+                //     ),
+                //     child: new Row(
+                //       mainAxisAlignment: MainAxisAlignment.spaceAround,
+                //       children: [
+                //         new ContactItem(
+                //           count: '10',
+                //           // title: FlutterI18n.translate(context, "mine.notice.button"),
+                //           title: '通知',
+                //         ),
+                //         new ContactItem(
+                //           count: '1000',
+                //           // title:  FlutterI18n.translate(context, "mine.task.button"),
+                //           title: '任务',
+                //         ),
+                //         new ContactItem(
+                //           count: '155',
+                //           // title:  FlutterI18n.translate(context, "mine.replay.button"),
+                //           title: '回复',
+                //         ),
+                //         new ContactItem(
+                //           count: '1',
+                //           // title:  FlutterI18n.translate(context, "mine.todo.button"),
+                //           title: '待办任务',
+                //         ),
+                //       ]
+                //     )
+                //   ),
+                // ),
                 new Container(
                   color: Colors.white,
                   margin: const EdgeInsets.only(top: 10.0),

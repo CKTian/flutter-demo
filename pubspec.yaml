@@ -43,7 +43,7 @@ flutter:
   # 资源图片路径
   assets:
     - images/
-    - lib/locales/
+    - assets/i18n/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

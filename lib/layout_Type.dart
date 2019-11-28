@@ -1,4 +1,6 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 
 abstract class HasLayoutGroup {
   VoidCallback get onLayoutToggle;
@@ -12,16 +14,16 @@ enum LayoutType{
   mine,
 }
 
-String layoutName(LayoutType layoutType){
+String layoutName(LayoutType layoutType,BuildContext context){
   switch (layoutType) {
     case LayoutType.home:
-      return '首页';
+      return FlutterI18n.translate(context, "homePage");
     case LayoutType.order:
-      return '订单';
+      return FlutterI18n.translate(context, "functionPage");
     case LayoutType.task:
-      return '任务列表';
+      return FlutterI18n.translate(context, "noticePage");
     case LayoutType.mine:
-      return '我的';
+      return FlutterI18n.translate(context, "minePage");
     default:
       return '';
   }

@@ -23,5 +23,10 @@
     "inputMessagePwd":"请输入短信验证码",
     "sendMessage":"发送验证码",
     "accountLogin":"账号登陆",
-    "phoneLogin":"手机号登陆"
+    "phoneLogin":"手机号登陆",
+
+    "mine.notice.button":"通知",
+    "mine.task.button":"任务",
+    "mine.replay.button":"回复",
+    "mine.todo.button":"待办任务"
   }

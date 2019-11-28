@@ -240,7 +240,7 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
               child:new Container(
                 width: 80.0,
                 height: 75.0,
-                margin: new EdgeInsets.only(top:25.0),
+                margin: new EdgeInsets.only(top:60.0),
                 decoration: new BoxDecoration(
                   image:new DecorationImage(
                     image: AssetImage('images/ic_iconlogo.png')
@@ -289,15 +289,6 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
                   ),
                 ),
                 child: new Container(
-                  decoration: new BoxDecoration(
-                // border: new Border(
-                //   bottom: BorderSide(
-                //     // color: Color.fromRGBO(161, 161, 161, 0.32),
-                //     color: Colors.red,
-                //     width: 0.5
-                //   )
-                      // ),
-                    ),
                   child: new ClipRRect(
                       borderRadius: BorderRadius.only(
                         topLeft:Radius.circular(25),

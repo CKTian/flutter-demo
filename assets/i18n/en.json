@@ -22,5 +22,10 @@
     "inputMessagePwd":"Please input your message password",
     "sendMessage":"Send Meaasge",
     "accountLogin":"Account Login",
-    "phoneLogin":"Phone Login"
+    "phoneLogin":"Phone Login",
+
+    "mine.notice.button":"Notice",
+    "mine.task.button":"task",
+    "mine.replay.button":"replay",
+    "mine.todo.button":"todo"
 }

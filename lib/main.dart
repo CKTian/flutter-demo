@@ -82,7 +82,7 @@ class AppState extends State<MyApp> {
     // 国际化方案二：
     localizationsDelegates: [
       FlutterI18nDelegate(
-          useCountryCode: false, fallbackFile: 'zh', path: 'lib/locales'),
+          useCountryCode: false, fallbackFile: 'zh', path: 'assets/i18n'),
       GlobalMaterialLocalizations.delegate,
       GlobalWidgetsLocalizations.delegate
     ],
@@ -114,8 +114,8 @@ class _MainPageState extends State<MainPage>{
   }
 
   //绘制底部导航-个体
-  BottomNavigationBarItem _buildItem({String icon, LayoutType layoutSelection}){
-    String text = layoutName(layoutSelection);
+  BottomNavigationBarItem _buildItem({String icon, LayoutType layoutSelection,BuildContext context}){
+    String text = layoutName(layoutSelection,context);
     
     return BottomNavigationBarItem(
       icon:new Image.asset(
@@ -159,14 +159,14 @@ class _MainPageState extends State<MainPage>{
   }
 
   // 展示头部导航栏
-  Widget _buildAppBar(){
+  Widget _buildAppBar(BuildContext context){
     if(_layoutSelection==LayoutType.mine){
       return null;
     }
     return AppBar(
       elevation: 0.0,
       centerTitle: true,
-      title: new Text(layoutName(_layoutSelection),style: new TextStyle(fontSize: 20.0, color: Colors.white)),
+      title: new Text(layoutName(_layoutSelection,context),style: new TextStyle(fontSize: 20.0, color: Colors.white)),
     );
   }
 
@@ -186,26 +186,30 @@ class _MainPageState extends State<MainPage>{
   }
 
   // 绘制底部导航条
-  Widget _buildButtonNavBar() {
+  Widget _buildButtonNavBar(BuildContext context) {
     return BottomNavigationBar(
       type:BottomNavigationBarType.fixed,// 超过4个是fixed shifting
       onTap: _onSelectTab,// 选中变化回调函数
       items:[ // 底部按钮集合
         _buildItem(
           icon: _layoutSelection == LayoutType.home?'images/ic_home.png': 'images/ic_home_uncheck.png',
-          layoutSelection:LayoutType.home
+          layoutSelection:LayoutType.home,
+          context:context
         ),
         _buildItem(
           icon: _layoutSelection == LayoutType.order?"images/ic_peisong.png": "images/ic_peisong_uncheck.png",
-          layoutSelection:LayoutType.order
+          layoutSelection:LayoutType.order,
+          context:context
         ),
         _buildItem(
           icon: _layoutSelection == LayoutType.task?"images/ic_dashuju.png": "images/ic_dashuju_uncheck.png",
-          layoutSelection:LayoutType.task
+          layoutSelection:LayoutType.task,
+          context:context
         ),
         _buildItem(
           icon: _layoutSelection == LayoutType.mine?"images/ic_geren.png": "images/ic_geren_uncheck.png",
-          layoutSelection:LayoutType.mine
+          layoutSelection:LayoutType.mine,
+          context:context
         ),
       ]
     );
@@ -215,9 +219,9 @@ class _MainPageState extends State<MainPage>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar:_buildAppBar(),// 顶部导航栏
+      appBar:_buildAppBar(context),// 顶部导航栏
       body: _buildBody(),// 主体
-      bottomNavigationBar: _buildButtonNavBar(),// 底部
+      bottomNavigationBar: _buildButtonNavBar(context),// 底部
     );
   }
 
