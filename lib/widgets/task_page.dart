@@ -87,6 +87,7 @@ class _TaskPageState extends State<TaskPage>with AutomaticKeepAliveClientMixin{
             delegate: SliverChildListDelegate(
               tasklist.map((task) {
                 return Card(
+                  elevation: 0,
                     child:new Container(
                       child: Row(
                         children:[

@@ -82,7 +82,7 @@ class AppState extends State<MyApp> {
     // 国际化方案二：
     localizationsDelegates: [
       FlutterI18nDelegate(
-          useCountryCode: false, fallbackFile: 'zh', path: 'assets/i18n'),
+          useCountryCode: false, fallbackFile: 'en', path: 'assets/i18n'),
       GlobalMaterialLocalizations.delegate,
       GlobalWidgetsLocalizations.delegate
     ],
@@ -160,7 +160,7 @@ class _MainPageState extends State<MainPage>{
 
   // 展示头部导航栏
   Widget _buildAppBar(BuildContext context){
-    if(_layoutSelection==LayoutType.mine){
+    if(_layoutSelection==LayoutType.mine||_layoutSelection==LayoutType.home){
       return null;
     }
     return AppBar(
