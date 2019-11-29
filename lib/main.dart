@@ -13,6 +13,7 @@ import 'package:iwms_demo/widgets/mine_page.dart';
 import 'package:iwms_demo/widgets/order_page.dart';
 import 'layout_Type.dart';
 import 'splashPage.dart';
+import 'widgets/function_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -147,7 +148,7 @@ class _MainPageState extends State<MainPage>{
         _onLayoutSelected(LayoutType.home);
         break;
       case 1:
-        _onLayoutSelected(LayoutType.order);
+        _onLayoutSelected(LayoutType.function);
         break;
       case 2:
         _onLayoutSelected(LayoutType.task);
@@ -160,7 +161,8 @@ class _MainPageState extends State<MainPage>{
 
   // 展示头部导航栏
   Widget _buildAppBar(BuildContext context){
-    if(_layoutSelection==LayoutType.mine||_layoutSelection==LayoutType.home){
+    if(_layoutSelection==LayoutType.mine||_layoutSelection==LayoutType.home
+    ||_layoutSelection==LayoutType.function){
       return null;
     }
     return AppBar(
@@ -176,8 +178,10 @@ class _MainPageState extends State<MainPage>{
     switch (layoutSelection) {
       case LayoutType.home:
         return HomePage();
-      case LayoutType.order:
-        return OrderPage();
+      // case LayoutType.order:
+      //   return OrderPage();
+      case LayoutType.function:
+        return FunctionPage();
       case LayoutType.task:
         return TaskPage();
       case LayoutType.mine:
@@ -197,8 +201,8 @@ class _MainPageState extends State<MainPage>{
           context:context
         ),
         _buildItem(
-          icon: _layoutSelection == LayoutType.order?"images/ic_peisong.png": "images/ic_peisong_uncheck.png",
-          layoutSelection:LayoutType.order,
+          icon: _layoutSelection == LayoutType.function?"images/ic_peisong.png": "images/ic_peisong_uncheck.png",
+          layoutSelection:LayoutType.function,
           context:context
         ),
         _buildItem(

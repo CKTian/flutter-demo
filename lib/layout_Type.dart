@@ -9,7 +9,8 @@ abstract class HasLayoutGroup {
 // 枚举底部导航栏
 enum LayoutType{
   home,
-  order,
+  // order,
+  function,
   task,
   mine,
 }
@@ -18,7 +19,9 @@ String layoutName(LayoutType layoutType,BuildContext context){
   switch (layoutType) {
     case LayoutType.home:
       return FlutterI18n.translate(context, "homePage");
-    case LayoutType.order:
+    // case LayoutType.order:
+      // return FlutterI18n.translate(context, "functionPage");
+    case LayoutType.function:
       return FlutterI18n.translate(context, "functionPage");
     case LayoutType.task:
       return FlutterI18n.translate(context, "noticePage");
