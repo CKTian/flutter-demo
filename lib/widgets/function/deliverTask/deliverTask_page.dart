@@ -88,6 +88,16 @@ class DeliverTaskPage extends StatefulWidget{
                     qtyStr: todoList[index]["qtyStr"],
                     weight: todoList[index]["weight"],
                     childNum: todoList[index]["childNum"],
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context)=>new TaskItemView(
+                            paramsNumber:doneList[index]["billNumber"]
+                          ),
+                        )
+                      );
+                    },
                   );
                 },
               ),
@@ -104,6 +114,16 @@ class DeliverTaskPage extends StatefulWidget{
                     qtyStr: doingList[index]["qtyStr"],
                     weight: doingList[index]["weight"],
                     childNum: doingList[index]["childNum"],
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context)=>new TaskItemView(
+                            paramsNumber:doneList[index]["billNumber"]
+                          ),
+                        )
+                      );
+                    },
                   );
                 },
               ),
@@ -139,6 +159,3 @@ class DeliverTaskPage extends StatefulWidget{
       );
     }
   }
-
-class TaskItemViewPage {
-}

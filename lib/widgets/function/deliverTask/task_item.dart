@@ -117,27 +117,6 @@ class TaskItem extends StatelessWidget{
                   )
                 ],
               )
-              
-              //   children: <Widget>[
-              //     Expanded(
-              //       flex: 1,
-              //       child: Chip(label: Text(billState)),
-              //     ),
-                  // Expanded(
-                  //   flex: 4,
-                  //   child: Text(billNumber),
-                  // ),
-                  // Expanded(
-                  //   flex: 2,
-                  //   child: Text(
-                  //     time,
-                  //     style: TextStyle(
-                  //       color: Colors.grey
-                  //     ),
-                  //   ),
-                  // ),
-              //   ],
-              // ),
             )
           ],
         )
