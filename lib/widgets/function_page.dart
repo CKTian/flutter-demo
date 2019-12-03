@@ -1,9 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart' as prefix0;
-import 'package:flutter_i18n/flutter_i18n.dart';
 
-import 'home/info_item.dart';
+import 'function/deliverTask/deliverTask_page.dart';
 
 class FunctionPage extends StatefulWidget {
   @override
@@ -25,7 +23,7 @@ class _FunctionPageState extends State<FunctionPage> with AutomaticKeepAliveClie
           body: Column(
             children: <Widget>[
               Container(
-                height: window.physicalSize.height*0.05,
+                height: MediaQuery.of(context).size.height*0.15,
                 decoration: new BoxDecoration(
                   color: Color.fromRGBO(69, 118, 255, 1.0),
                   borderRadius: BorderRadius.only(
@@ -36,7 +34,7 @@ class _FunctionPageState extends State<FunctionPage> with AutomaticKeepAliveClie
               ),
               Container(
                 margin: const EdgeInsets.fromLTRB(25, 160, 25, 0),
-                height: window.physicalSize.height*0.15,
+                height: MediaQuery.of(context).size.height*0.5,
                 decoration: new BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -105,7 +103,7 @@ class _FunctionPageState extends State<FunctionPage> with AutomaticKeepAliveClie
         ),
         Container(
           margin: const EdgeInsets.fromLTRB(25, 70, 25, 0),
-          height: window.physicalSize.height*0.08,
+          height: MediaQuery.of(context).size.height*0.24,
           decoration: new BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -120,18 +118,27 @@ class _FunctionPageState extends State<FunctionPage> with AutomaticKeepAliveClie
               ),
               Row(
                 children: <Widget>[
-                  Container(
-                    width: 150,
-                    height: 100,
-                    margin: EdgeInsets.fromLTRB(25, 0, 0, 0),
-                    child: Center(
-                      child: Text('配送任务'),
-                    ), 
-                    decoration: new BoxDecoration(
-                      color: Colors.blue[50],
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                  GestureDetector(
+                    child: Container(
+                      width: 150,
+                      height: 100,
+                      margin: EdgeInsets.fromLTRB(25, 0, 0, 0),
+                      child: Center(
+                        child: Text('配送任务'),
+                      ), 
+                      decoration: new BoxDecoration(
+                        color: Colors.blue[50],
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                      ),
                     ),
+                    onTap:(){
+                      Navigator.push(
+                        context,
+                        new MaterialPageRoute(builder: (context) => new DeliverTaskPage()),
+                      );
+                    }
                   ),
+                  
                   Container(
                     width: 150,
                     height: 100,

@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 
+import 'business/businessList_page.dart';
 import 'home/info_item.dart';
 
 class HomePage extends StatefulWidget {
@@ -11,9 +12,9 @@ class HomePage extends StatefulWidget {
   
 class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
 
-  final List bussinessInfoList =[
-    // {'vehicleName':'闽AV9P16','time':'今天 09:12:08','shipBillNumber':'FJHN1910130000001'},
-    // {'vehicleName':'闽AV9P22','time':'今天 10:15:33','shipBillNumber':'FJHN1910130000002'}
+  final List businessInfoList =[
+    {'vehicleName':'闽AV9P16','time':'今天 09:12:08','shipBillNumber':'FJHN1910130000001'},
+    {'vehicleName':'闽AV9P22','time':'今天 10:15:33','shipBillNumber':'FJHN1910130000002'}
   ];
 
   final List noticeInfoList = [
@@ -100,7 +101,10 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
                           color: Colors.white,
                           icon: ImageIcon(AssetImage("images/ic_saomiao.png")),
                           onPressed: () {
-                            
+                            // Navigator.push(
+                            //   context,
+                            //   new MaterialPageRoute(builder: (context) => new Search()),
+                            // );
                           }),
                       )
                     ],
@@ -117,25 +121,33 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
                         children: <Widget>[
                           Expanded(
                             child:Text(
-                              FlutterI18n.translate(context, "homeBussinessInfo"),
+                              FlutterI18n.translate(context, "homeBusinessInfo"),
                               style:TextStyle(color: Colors.grey[800])
                             ),
                           ),
                           Expanded(
-                            child: Text(
-                              FlutterI18n.translate(context, "homeMore"),
-                              textAlign:TextAlign.right,
-                              style:TextStyle(
-                                color: Colors.grey[800],
-                              )
-                            ),
+                            child: new GestureDetector(
+                              child: Text(
+                                FlutterI18n.translate(context, "homeMore"),
+                                textAlign:TextAlign.right,
+                                style:TextStyle(
+                                  color: Colors.grey[800],
+                                )
+                              ),
+                              onTap: ()  {
+                                Navigator.push(
+                                  context,
+                                  new MaterialPageRoute(builder: (context) => new BusinessListView()),
+                                );
+                              },
+                            )
                           ),
                         ],
                       ),
                       Column (
-                        children: (bussinessInfoList.length>0)?bussinessInfoList.map((info){
+                        children: (businessInfoList.length>0)?businessInfoList.map((info){
                             return InfoItem(
-                              icon:Icon(Icons.chat,color: Colors.grey),
+                              icon:Icon(Icons.chat,color: Colors.grey,size:22),
                               titleText:Text(
                                 FlutterI18n.translate(context, "homeVehicleBeginLoading",
                                 Map.fromIterables(["vehicleName"], [info["vehicleName"]])),
@@ -177,13 +189,22 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
                             ),
                           ),
                           Expanded(
-                            child: Text(
-                              FlutterI18n.translate(context, "homeMore"),
-                              textAlign:TextAlign.right,
-                              style:TextStyle(
-                                color: Colors.grey[800],
-                              )
-                            ),
+                            child: new GestureDetector(
+                              child: Text(
+                                FlutterI18n.translate(context, "homeMore"),
+                                textAlign:TextAlign.right,
+                                style:TextStyle(
+                                  color: Colors.grey[800],
+                                )
+                              ),
+                              // onTap: ()  {
+                              //   Navigator.push(
+                              //     context,
+                              //     new MaterialPageRoute(builder: (context) => new BusinessListView()),
+                              //   );
+                              // },
+                            )
+                            
                           ),
                         ],
                       ),
@@ -212,7 +233,7 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
           ),
         ),
         new Container(
-          width: window.physicalSize.width*0.18,
+          width: MediaQuery.of(context).size.width*0.54,
           height: 110,
           decoration:new BoxDecoration(
             color: Colors.white,
@@ -267,7 +288,7 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
           ),
         ),
         new Container(
-          width: window.physicalSize.width*0.11,
+          width: MediaQuery.of(context).size.width*0.33,
           height: 140,
           decoration:new BoxDecoration(
             color: Colors.white,

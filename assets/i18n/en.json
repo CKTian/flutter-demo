@@ -31,13 +31,16 @@
 
     "homeDoingTask":"{n} delivery tasks in progress",
     "homeDoneTask":"{n} delivery tasks completed today",
-    "homeBussinessInfo":"Business Information",
+    "homeBusinessInfo":"Business Information",
     "homeNoticeInfo":"Notice Information",
     "homeMore":"More",
     "homeVehicleBeginLoading":"Vehicle {vehicleName} is loading started",
     "homeVehicleBeginDischarge":"Vehicle {vehicleName} is already discharged",
     "homeToRead":"Platoon Number {billnumber}, please check in time",
     "homeOrgNotice":"{org} Notice",
-    "homeNoMessage":"No Message"
+    "homeNoMessage":"No Message",
+    "cleanUnReadNotice":"Clean",
+    "deliverTaskTitle":"Deliver Task"
+
 
 }

@@ -32,13 +32,15 @@
 
   "homeDoingTask":"正在进行 {n} 个配送任务",
   "homeDoneTask":"今日已完成 {n} 个配送任务",
-  "homeBussinessInfo":"业务信息",
-  "homeNoticeInfo":"通知信息",
+  "homeBusinessInfo":"业务消息",
+  "homeNoticeInfo":"通知消息息",
   "homeMore":"更多" ,
   "homeVehicleBeginLoading":"车辆 {vehicleName} 已开始装车",
   "homeVehicleBeginDischarge":"车辆 {vehicleName} 已排车",
   "homeToRead":"排车单号 {billNumber} ,请及时查看",
   "homeOrgNotice":"{org} 通知",
-  "homeNoMessage":"暂无未读消息"
+  "homeNoMessage":"暂无未读消息",
+  "cleanUnReadNotice":"清除未读",
+  "deliverTaskTitle":"配送任务"
 
 }

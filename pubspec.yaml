@@ -29,7 +29,9 @@ dependencies:
   dio: ^2.1.0
   json_annotation: ^0.2.3  
   shared_preferences: "^0.4.2"
-  flutter_i18n: ^0.6.4  
+  flutter_i18n: ^0.6.4
+  flutter_badge: ^0.0.1
+  flutter_swiper : ^1.1.6
 
 dev_dependencies:
   flutter_test:

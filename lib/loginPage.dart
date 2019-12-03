@@ -279,8 +279,8 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
                 margin: const EdgeInsets.only(
                   top: 25.0
                 ),
-                width: window.physicalSize.width,
-                height: window.physicalSize.height*0.2549,
+                // width: MediaQuery.of(context).size.width,
+                // height: MediaQuery.of(context).size.height*0.2549,
                 decoration: new BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
@@ -302,14 +302,6 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
                             bottom: new TabBar(
                               labelColor:Color.fromRGBO(69, 118, 255, 1),
                               indicatorColor:Color.fromRGBO(69, 118, 255, 1),
-                              // indicator: new BoxDecoration(
-                              //   border: new Border(
-                              //     bottom: BorderSide(
-                              //       color: Color.fromRGBO(161, 161, 161, 0.32),
-                              //       width: 0.5
-                              //     )
-                              //   ),
-                          //   ),
                               controller: _tabController,
                               tabs: <Widget>[
                                 // new Tab(text: DemoLocalizations.of(context).text('accountLogin')),
