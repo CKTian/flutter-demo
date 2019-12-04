@@ -93,7 +93,7 @@ class DeliverTaskPage extends StatefulWidget{
                         context,
                         MaterialPageRoute(
                           builder: (context)=>new TaskItemView(
-                            paramsNumber:doneList[index]["billNumber"]
+                            paramsNumber:todoList[index]["billNumber"]
                           ),
                         )
                       );
@@ -119,7 +119,7 @@ class DeliverTaskPage extends StatefulWidget{
                         context,
                         MaterialPageRoute(
                           builder: (context)=>new TaskItemView(
-                            paramsNumber:doneList[index]["billNumber"]
+                            paramsNumber:doingList[index]["billNumber"]
                           ),
                         )
                       );
