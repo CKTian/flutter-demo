@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:iwms_demo/widgets/function/deliverTask/TaskState.dart';
 import 'package:iwms_demo/widgets/function/deliverTask/childCardItem.dart';
+import 'package:iwms_demo/widgets/function/deliverTask/storeTaskItemView_page.dart';
 import 'package:iwms_demo/widgets/function/deliverTask/taskItemList.dart';
 import 'package:iwms_demo/widgets/function/deliverTask/taskTimeLine_page.dart';
 
@@ -193,10 +194,20 @@ class TaskItemView extends StatelessWidget {
                                 color: Color.fromRGBO(69, 118, 255, 1),
                                 borderRadius: BorderRadius.all(Radius.circular(25)),
                               ),
-                              child: Center(
+                              child: FlatButton(
                                 child: Text("配送详情",style: TextStyle(
                                   color: Colors.white
                                 )),
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                      MaterialPageRoute(
+                                        builder: (context)=>new StoreTaskView(
+                                          storeName:item["childItems"][index]["endCompanyName"]
+                                        )
+                                      )
+                                  );
+                                },
                               ),
                             ),
                           )

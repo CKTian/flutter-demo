@@ -7,6 +7,7 @@ import 'package:flutter_i18n/flutter_i18n_delegate.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:iwms_demo/utils/sharedPreferenceUtil.dart';
 import 'package:iwms_demo/locales/localizations.dart';
+import 'package:iwms_demo/widgets/notice_page.dart';
 import 'package:iwms_demo/widgets/task_page.dart';
 import 'package:iwms_demo/widgets/home_page.dart';
 import 'package:iwms_demo/widgets/mine_page.dart';
@@ -151,7 +152,7 @@ class _MainPageState extends State<MainPage>{
         _onLayoutSelected(LayoutType.function);
         break;
       case 2:
-        _onLayoutSelected(LayoutType.task);
+        _onLayoutSelected(LayoutType.notice);
         break;
       case 3:
         _onLayoutSelected(LayoutType.mine);
@@ -182,8 +183,8 @@ class _MainPageState extends State<MainPage>{
       //   return OrderPage();
       case LayoutType.function:
         return FunctionPage();
-      case LayoutType.task:
-        return TaskPage();
+      case LayoutType.notice:
+        return Noticepage();
       case LayoutType.mine:
         return MinePage();
     }
@@ -206,8 +207,8 @@ class _MainPageState extends State<MainPage>{
           context:context
         ),
         _buildItem(
-          icon: _layoutSelection == LayoutType.task?"images/ic_dashuju.png": "images/ic_dashuju_uncheck.png",
-          layoutSelection:LayoutType.task,
+          icon: _layoutSelection == LayoutType.notice?"images/ic_dashuju.png": "images/ic_dashuju_uncheck.png",
+          layoutSelection:LayoutType.notice,
           context:context
         ),
         _buildItem(

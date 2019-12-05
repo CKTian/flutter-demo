@@ -11,7 +11,7 @@ enum LayoutType{
   home,
   // order,
   function,
-  task,
+  notice,
   mine,
 }
 
@@ -23,7 +23,7 @@ String layoutName(LayoutType layoutType,BuildContext context){
       // return FlutterI18n.translate(context, "functionPage");
     case LayoutType.function:
       return FlutterI18n.translate(context, "functionPage");
-    case LayoutType.task:
+    case LayoutType.notice:
       return FlutterI18n.translate(context, "noticePage");
     case LayoutType.mine:
       return FlutterI18n.translate(context, "minePage");

@@ -32,11 +32,6 @@ class _LineItemState extends State<LineItem> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // decoration: BoxDecoration(
-      //   border: Border(
-      //     bottom: BorderSide(width: 1,color: Colors.grey)
-      //   )
-      // ),
       child: Row(
         children: <Widget>[
           // 左侧圆圈
@@ -46,12 +41,6 @@ class _LineItemState extends State<LineItem> {
             child:Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Expanded(
-                //   child:Container(
-                //     width:widget.index==0?0:0.9,
-                //     color:Colors.grey,
-                //   )
-                // ),
                 Container(
                   height:10,
                   width:10,
